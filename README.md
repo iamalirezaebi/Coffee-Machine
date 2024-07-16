@@ -1,5 +1,5 @@
 
-Coffee Machine Project
+# Coffee Machine Project
 This is a simple console-based coffee machine simulation written in Python. The program allows users to order different types of coffee, checks for sufficient resources, processes payments, and deducts the used resources from the machine's inventory. This project is part of the "100 Days of Code: The Complete Python Pro Bootcamp for 2023" by Angela Yu.
 
 ### Table of Contents
