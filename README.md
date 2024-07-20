@@ -36,11 +36,11 @@ Menu and Resources
 The MENU dictionary defines the available coffee options (espresso, latte, cappuccino) along with their required ingredients and costs. The resources dictionary defines the initial amounts of water, milk, and coffee available in the machine.
 
 #### Functions
-is_resource_sufficient(order_ingredient): Checks if there are enough resources to make the selected coffee. Returns False if resources are insufficient and prints a message indicating which resource is lacking.
-is_transaction_successful(money_received, drink_cost): Checks if the money received is sufficient to cover the cost of the coffee. If sufficient, adds the cost to the profit and returns True, else returns False and prints a refund message.
-process_coins(): Prompts the user to input the number of coins and calculates the total money received.
-make_coffee(drink_name, order_ingredients): Deducts the required ingredients from the resources and prints a message serving the coffee.
-Main Loop
+1.is_resource_sufficient(order_ingredient): Checks if there are enough resources to make the selected coffee. Returns False if resources are insufficient and prints a message indicating which resource is lacking.
+2.is_transaction_successful(money_received, drink_cost): Checks if the money received is sufficient to cover the cost of the coffee. If sufficient, adds the cost to the profit and returns True, else returns False and prints a refund message.
+3.process_coins(): Prompts the user to input the number of coins and calculates the total money received.
+4.make_coffee(drink_name, order_ingredients): Deducts the required ingredients from the resources and prints a message serving the coffee.
+##### Main Loop
 The main loop runs continuously, prompting the user for their choice of coffee. It handles commands to turn off the machine (off) and to print a report of current resources (report). If a coffee is selected, it checks for sufficient resources, processes the payment, and if successful, makes the coffee.
 
 #### Example Interaction
@@ -61,4 +61,4 @@ Milk: 50ml
 Coffee: 76g
 Money: $2.5
 Conclusion
-This coffee machine project demonstrates basic principles of Python programming, including working with dictionaries, functions, loops, and user input. It is a good example of a simple, interactive console application.
+
