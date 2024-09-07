@@ -43,14 +43,14 @@ a. If the transaction is successful and there are enough resources to make the d
  user selected, then the ingredients to make the drink should be deducted from the
  coffee machine resources.
  E.g. report before purchasing latte:
-Water: 300ml
-Milk: 200ml
-Coffee: 100g
-Money: $0
+##### Water: 300ml
+##### Milk: 200ml
+##### Coffee: 100g
+##### Money: $0
 #### Report after purchasing latte:
-Water: 100ml
-Milk: 50ml
-Coffee: 76g
-Money: $2.5
+##### Water: 100ml
+##### Milk: 50ml
+##### Coffee: 76g
+##### Money: $2.5
 b. Once all resources have been deducted, tell the user “Here is your latte. Enjoy!”. If
  latte was their choice of drink.
